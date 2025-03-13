@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+/* Fonts */
+@font-face {
+  font-family: 'NeueHaasDisplay';
+  src: url('/src/assets/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeueHaasDisplay';
+  src: url('/src/assets/fonts/NeueHaasDisplayBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* CSS Reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/*
+  10. Avoid pointless scrolling and overflow issues
+*/
+html, body {margin: 0; height: 100%; overflow: auto}
+
+/* Default Font */
+
+:root {
+  font-family: 'NeueHaasDisplay', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #F4F4F4;
+}
+
+/* Tailwind CSS Theme */
+
+@theme {
+  --text-2xs: 10px;
+  --text-xl: 22px;
+
+  --font-weight-bold: 600;
+
+  --color-primary: #0154AA;
+  --color-icon-gray: #AAAAAA;
+  --color-light: #737A91;
+  --color-color-base: #585D6E;
+  --color-dark: #333333;
+  --color-bg-blue: #F6F9FF;
+  --color-separator: #E9ECEF;
+}
