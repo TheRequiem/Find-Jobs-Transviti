@@ -2,6 +2,10 @@
 
 This webpage is made for Transviti as a part of frontend coding challenge. The focus on this project was design and responsiveness. I have not used any library except for Tailwind CSS. All components are handmade through Tailwind CSS. I've added comments for readability and reusability. I have setup custom Tailwind theme that includes the font sizes, colors and font weight suited for this project. I will discuss those custom classes in later section.
 
+## Scripts to run the project locally
+- npm i
+- npm run dev
+
 ## Stack used for the project
 
 ### Vite 
